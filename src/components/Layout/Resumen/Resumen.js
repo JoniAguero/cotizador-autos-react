@@ -29,9 +29,7 @@ class Resumen extends Component {
         return(
             <div>
                 { this.mostrarResumen() }
-                <div className="resultado">
-                    <Resultado resultado = {this.props.resultado}/>
-                </div>
+                <Resultado resultado = {this.props.resultado}/>
             </div>
         )
         

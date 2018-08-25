@@ -1,5 +1,5 @@
 ## Steps
 
-*Clone
-*npm install
-*review
+*Clone </b>
+*npm install </b>
+*review </b>

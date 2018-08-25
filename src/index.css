@@ -89,7 +89,6 @@ header h1 {
   border: 1px solid #26C6DA;
   text-align: center;
   padding: 0  0 20px 0;
-  margin-top: 10px;
 }
 .resultado div p {
   margin-bottom: 0;
@@ -137,9 +136,6 @@ span.resultado {
   border: 1px solid #26C6DA;
   background-color: rgb(127, 224, 237);
   margin-top: 1rem;
-}
-.gran-total p {
-
 }
 
 .resumen {
