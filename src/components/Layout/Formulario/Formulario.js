@@ -24,7 +24,7 @@ class Formulario extends Component {
 
     render() {
         return (
-            <div className="contenedor-formulario">
+            
                 <form className="cotizar-auto" onSubmit={this.cotizarSeguro}>
                     <div className="campo">
                         <label>Marca</label>
@@ -59,7 +59,6 @@ class Formulario extends Component {
 
                     <button type="submit" className="boton">Cotizar</button>
                 </form>
-            </div>
             
         );
     }
