@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { primeraMayuscula } from "../../helper";
+import Resultado from '../Resultado/Resultado';
 
 class Resumen extends Component {
 
@@ -28,6 +29,9 @@ class Resumen extends Component {
         return(
             <div>
                 { this.mostrarResumen() }
+                <div className="resultado">
+                    <Resultado resultado = {this.props.resultado}/>
+                </div>
             </div>
         )
         
