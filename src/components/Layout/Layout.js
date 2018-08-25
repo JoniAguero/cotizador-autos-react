@@ -47,8 +47,8 @@ class Layout extends Component {
             <div className="contenedor">
                 <Header titulo="Cotizador de Seguro de Autos"/>
                 <div className="contenedor-formulario">
-                    <Formulario cotizarSeguro= { this.cotizarSeguro }/>
-                    <Resumen datos= { this.state.datos } />
+                    <Formulario cotizarSeguro = { this.cotizarSeguro }/>
+                    <Resumen datos = { this.state.datos } resultado = { this.state.resultado } />
                 </div>
             </div>
         );
