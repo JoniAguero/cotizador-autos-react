@@ -9,6 +9,7 @@ class Formulario extends Component {
     cotizarSeguro = (e) => {
         e.preventDefault();
 
+        //Se verificar el el ref de plan basico, SI esta checkeado se setea basico
         const plan = this.planBasicoRef.current.checked ? 'basico' : 'completo';
 
         const infoAuto = {
